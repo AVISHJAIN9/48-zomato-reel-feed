@@ -1,0 +1,49 @@
+/* Pure Black Dark Theme for VitePress */
+.dark {
+  --vp-c-bg: #000000;
+  --vp-c-bg-alt: #000000;
+  --vp-c-bg-elv: #0a0a0a;
+  --vp-c-bg-soft: #0a0a0a;
+  --vp-sidebar-bg-color: #000000;
+  --vp-c-divider: #262626;
+  --vp-c-gutter: #262626;
+  --vp-c-border: #333333;
+
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #cccccc;
+  --vp-c-text-3: #888888;
+
+  --vp-c-brand-1: #e23744; /* Zomato Brand Red */
+  --vp-c-brand-2: #ff4d5a;
+  --vp-c-brand-3: #cb202d;
+  --vp-c-brand-soft: rgba(226, 55, 68, 0.16);
+
+  --vp-code-block-bg: #080808;
+}
+
+/* Base styles for table and code readability */
+table {
+  display: table !important;
+  width: 100% !important;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid var(--vp-c-border) !important;
+  padding: 8px 14px;
+}
+
+th {
+  background-color: var(--vp-c-bg-elv);
+}
+
+.mermaid {
+  background: #000000;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #222222;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}

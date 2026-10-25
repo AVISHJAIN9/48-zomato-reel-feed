@@ -1,0 +1,30 @@
+{
+  "name": "55-zomato-reel-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 5174",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 5174",
+    "dev:frontend": "npm run dev --prefix zomato/frontend",
+    "dev:backend": "node zomato/backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVISHJAIN9/zomato-reel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVISHJAIN9/zomato-reel/issues"
+  },
+  "homepage": "https://github.com/AVISHJAIN9/zomato-reel#readme",
+  "devDependencies": {
+    "mermaid": "^11.17.2",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}
