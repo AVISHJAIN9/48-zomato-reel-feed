@@ -12,3 +12,6 @@ target/
 
 __pycache__/
 .venv/
+# Secrets protection
+.secrets.local
+*.local
